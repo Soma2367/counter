@@ -1,0 +1,71 @@
+body {
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.section {
+    width: 100%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0px;
+}
+
+.heading-logo a {
+    font-size: 24px;
+    color: black;
+}
+
+.heading-nav a {
+    margin-right: 42px;
+}
+
+.main-title {
+    margin: 38px 0px;
+}
+
+.products-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 0;         /* 念のため */
+    margin: 0;  
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+}
+
+.footer-list {
+    display: flex;
+}
+
+.footer-list li {
+    margin-right: 8px;
+}
+
+.footer-p {
+    margin-right: 34px;
+}
