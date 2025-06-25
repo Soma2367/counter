@@ -6,23 +6,22 @@
 
 .counter-number {
     font-size: 50px;
-    margin-bottom: 10px;
+    margin-button: 10px;
 }
 
 .button {
     font-size: 20px;
     padding: 10px 20px;
-    border: 1px solid #000;
-    background-color: white;
+    border: 0;
+    background-color: #000;
+    color: #fff;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     margin: 0 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    transition: all 0.2s ease;
 }
 
-.button:active {
-    box-shadow: none;
-    transform: scale(0.95);
+.button:hover {
+    opacity: 0.8;
+    transition: opacity .25s;
 }
